@@ -1,0 +1,2 @@
+1) lower_bound return the iterator of the first index where arr[index] >= val.       code --> lower_bound(arr.begin(), arr.end(), val).
+2) upper_bound return the iterator of the first index where arr[index] > val.       code --> upper_bound(arr.begin(), arr.end(), val).
