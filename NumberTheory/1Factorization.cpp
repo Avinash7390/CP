@@ -25,7 +25,7 @@ N = 20;
 4 * 5
 5 * 4 -- repetation
 10 * 2 -- rep
-1 * 20 -- rep
+20 * 1 -- rep
 
 i dont want the repetation...
   
