@@ -35,7 +35,7 @@ if I calculate from the above method it is going to take $O(N*/sqrt{N})$
 - Can I do better?
 
 - Well Yes We can do better using the idea of smallestPrime factorization.
-<h1>Below is the code for finding out the smallest prime factor of numbers from 1 - N</h1>
+<h2>Below is the code for finding out the smallest prime factor of numbers from 1 - N</h2>
 
     void smallestPrimeFactor(int N){
     
@@ -55,6 +55,50 @@ if I calculate from the above method it is going to take $O(N*/sqrt{N})$
   first, find out the smallest prime factors of x and that will be P1 = smallestPrime[x]
   Now remove  $P1^k1$ from x so now $x = x / P1^k1$
   and repeat the steps while x != 1
+
+  <h4> Code for N queries </h4>
+    
+        void smallestPrimeFactor(vetor<int>&smallestPrime){
+        
+            for(int i = 2; i <= N; i++) smallestPrime[i] = i;
+        
+            for(int i = 2; i <= N; i++){
+                if(smallestPrime[i] != i) continue;
+        
+                for(int j = i * i; j <= N; j += i){
+                    if(smallestPrime[j] == j)
+                    smallestPrime[j] = i;
+                }
+            }
+         }
+
+        void findSmallestPrimeFactorQueries(int N){
+        
+            vector<int>smallestPrime(N + 1);
+            smallestPrimeFactor(smallestPrime);
+        
+            for(int i = 2; i <= N; i++){
+        
+                int count = 0;
+        
+                int num = i;
+                int prime = smallestPrime[num];
+        
+                while(num != 1){
+                    int num = i;
+                    int prime = smallestPrime[num];
+        
+                    while(num % prime == 0){
+                        num = num / prime;
+                        count++;
+                    }
+                }
+            }
+        }
+
+- Overall time complexity of the above code is $O(N*log(N))$
+  
+  
 
 
 
