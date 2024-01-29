@@ -85,7 +85,6 @@ if I calculate from the above method it is going to take $O(N*/sqrt{N})$
                 int prime = smallestPrime[num];
         
                 while(num != 1){
-                    int num = i;
                     int prime = smallestPrime[num];
         
                     while(num % prime == 0){
