@@ -1,7 +1,7 @@
 # Sum of all factors of a number.
 
 > [!NOTE]
-> - if N is represented as $N = (P_1)^k_1 * (P_2)^k_2 * (P_3)^k_3 * ....... *(P_m)^(k_m)$.
+> - if N is represented as $N = (P_1)^k1 * (P_2)^k_2 * (P_3)^k_3 * ....... *(P_m)^k_m$.
 > - Then sum of all factors is given by $(P_1^(k_1 + 1) - 1)/(p_1 - 1) + (P_2^(k_2 + 1) - 1)/(p_2 - 1) + ....... (P_m^(k_m + 1) - 1)/(p_m - 1)$.
 > - we have calculated this using the idea of the smallest prime.
 
