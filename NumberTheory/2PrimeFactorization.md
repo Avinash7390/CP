@@ -18,8 +18,8 @@ void PrimeFactorization(vector<ll> &factors, ll n){
     }
 }
 <hr/>
-[!NOTE]
+>[!NOTE]
 > The smallest factor (f > 1) of any Number N is always a prime.
-> Every No can be represented as $ N = P1^k1 * P2^k2 * P3^k3 ........ *Pm^km $
+> Every No can be represented as $N = P1^k1 * P2^k2 * P3^k3 ........ *Pm^km$
 > Over all time Complexity of the prime factorization is $O(sqrt(N))$
-> why $ sqrt(N) $ ? because we can list down all the factors of a number in $sqrt(N)$ time. 
+> Why $sqrt(N)$ ? Because we can list down all the factors of a number in $sqrt(N)$ time. 
