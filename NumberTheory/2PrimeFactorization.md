@@ -1,4 +1,4 @@
-prime factorization
+#prime factorization
 <hr/>
 void PrimeFactorization(vector<ll> &factors, ll n){
     
