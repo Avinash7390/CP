@@ -3,7 +3,7 @@
 > [!NOTE]
 > - The idea is the same as the sieve of Eratosthenes
 > - Complexity is also the same
-> - we are just marking the smallest prime factor to every number.
+> - we are just marking the smallest prime factor to every number if it is not marked previously
 
 <hr/>
 
