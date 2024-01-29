@@ -15,3 +15,7 @@ void sieve(int n){
     }
     
 }
+
+<hr/>
+> [!NOTE]
+> - Time complexity is $O(N * log(log(N)))$
