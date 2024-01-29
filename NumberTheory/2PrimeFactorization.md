@@ -31,7 +31,7 @@
 
 - If someone asks me to find out the prime factors of numbers from 1 to N
 I mean some query type of question on prime factorization
-if I calculate from the above method it is going to take $O(N*/sqrt{N})$
+if I calculate from the above method it is going to take $O(N*\sqrt{N})$
 - Can I do better?
 
 - Well Yes We can do better using the idea of smallestPrime factorization.
