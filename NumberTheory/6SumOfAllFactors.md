@@ -2,8 +2,8 @@
 
 > [!NOTE]
 > - if N is represented as $N = P1^k1 * P2^k2 * P3^k3 * ....... *Pm^km$.
-> - Then sum of all factors is given by $P1^(^k1 ^+ ^1) ^- ^1^)/(p1 - 1) + P2^(k2 + 1) - 1)/(p2 - 1) + ....... Pm^(km + 1) - 1)/(pm - 1)$
-> - we have calculated this using the idea of smallest prime.
+> - Then sum of all factors is given by $(P1^(k1 + 1) - 1)/(p1 - 1) + (P2^(k2 + 1) - 1)/(p2 - 1) + ....... (Pm^(km + 1) - 1)/(pm - 1)$.
+> - we have calculated this using the idea of the smallest prime.
 
 <h3> Here is the code </h3>
 
