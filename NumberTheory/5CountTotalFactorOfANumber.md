@@ -50,5 +50,5 @@
         }
     }
 
-- Since No can be represented as $N = P1^k1 * P2^k2 * P3^k3 ....... * Pm^km
+- Since No can be represented as $N = P1^k1 * P2^k2 * P3^k3 ....... * Pm^km$
 - Total no of factors  = $(k1 + 1)*(k2 + 1)*(k3 + 1).......(km + 1)$
