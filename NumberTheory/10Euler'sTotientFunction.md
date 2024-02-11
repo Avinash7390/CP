@@ -9,4 +9,4 @@
 - This can be done using Euler's Totient Funtion
 - $PHI(N) = PHI(P_1^k1 * P_2^k2 * ...... * P_m^Km)$ PHI is a multiplicative function.
   then $PHI(N) = PHI(P_1^k1) * PHI(P_2^k2) * ......... * PHI(P_m^km)$
-- You will get PHI(N) = $(N - (N / p1)) * (N - (N / p2)) * ....... * (N  - (N / pm))$
+- You will get $PHI(N) = (N - (N / p1)) * (N - (N / p2)) * ....... * (N  - (N / pm))$
