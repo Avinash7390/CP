@@ -1,7 +1,7 @@
 ## Euler's totient function
 
 > [!NOTE]
-> - A Multiplicative function is defined as $f(A * B * C) = f(A) * f(B) * f(C)$
+> - A Multiplicative function is defined as $f(A * B * C) = f(A) * f(B) * f(C)$ and $GCD(A, B, C) = 1$
 > - $PHI(P^k) = P^k - (p^k/p)$ where P is prime and k is positive integer
 <br/>
 
