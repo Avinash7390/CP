@@ -6,4 +6,4 @@
 
 - Problem is that you have to find number of X $(1 <= X < N)$ such that N and X are coprime -> gcd(X, N) = 1
 - This can be done using Euler's Totient Funtion
-- $PHI(N) = PHI(P1^k_1 * P2^k_2 * ...... * Pm^K_m)$ PHI is a multiplicative function.
+- $PHI(N) = PHI(P_1^k1 * P_2^k2 * ...... * P_m^Km)$ PHI is a multiplicative function.
