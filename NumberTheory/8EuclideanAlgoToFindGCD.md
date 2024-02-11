@@ -11,3 +11,4 @@
           else
               return gcd (b, a % b);
     }
+- Time Complexity : $O(log(min(a, b))$
