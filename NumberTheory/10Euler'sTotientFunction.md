@@ -14,5 +14,5 @@
 
   <hr/>
 
-  > [!NOTE]
-  > - Euler's Theorem : $(a ^ phi(m)) % m = 1) if gcd(a, m) = 1$
+> [!NOTE]
+> - Euler's Theorem : $((a)^phi(m) % m = 1) if gcd(a, m) = 1$
