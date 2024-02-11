@@ -1,4 +1,4 @@
-## Euclidean Algorithm to find GCD of two NUmbers.
+## Euclidean Algorithm to find GCD of two numbers.
 
 > [!NOTE]
-> - $gcd(a, b) = {{a, if b == 0}, {gcd(b, a %b) otherwise}}$
+> - $gcd(a, b) = gcd(b, a) = gcd(a, b - a) = gcd(b, a - b) = gcd(a, b - k*b) = gcd(a, b + k * a)$
