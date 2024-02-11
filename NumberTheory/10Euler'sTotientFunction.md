@@ -17,3 +17,4 @@
 > [!NOTE]
 > - Euler's Theorem :  $[a ^ Φ(m)] MOD m = 1$,  if $GCD(a, m) = 1$
 > - Fermat's Theorem : [a ^ (m - 1)] % m = 1 , if m is a prime No.
+> - Cool Problem on Fermat's Theorem : [https://cses.fi/problemset/task/1712]
