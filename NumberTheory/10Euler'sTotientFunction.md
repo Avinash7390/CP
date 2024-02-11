@@ -15,4 +15,4 @@
   <hr/>
 
 > [!NOTE]
-> - Euler's Theorem :  $((a)^phi(m)%m = 1)$ if $GCD(a, m) = 1$
+> - Euler's Theorem :  $[a ^ Φ(m)] % m= 1$,  if $GCD(a, m) = 1$
