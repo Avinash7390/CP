@@ -1,8 +1,8 @@
 ## Euler's totient function
 
 > [!NOTE]
-> A Multiplicative function is defined as $f(A * B * C) = f(A) * f(B) * f(C)$
-> $PHI(P^k) = P^k - (p^k/p)$
+> - A Multiplicative function is defined as $f(A * B * C) = f(A) * f(B) * f(C)$
+> - $PHI(P^k) = P^k - (p^k/p)$
 <br/>
 
 - Problem is that you have to find number of X $(1 <= X < N)$ such that N and X are coprime -> gcd(X, N) = 1
