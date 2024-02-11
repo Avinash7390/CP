@@ -11,3 +11,8 @@
   then $PHI(N) = PHI(P_1^k1) * PHI(P_2^k2) * ......... * PHI(P_m^km)$
 - You will get $PHI(N) = (N - (N / p1)) * (N - (N / p2)) * ....... * (N  - (N / pm))$
 - If you know all the prime factors of N then it can be calculated easily, the number of X $(1 <= X < N)$ such that N and X are coprime or gcd(X, N) = 1 and it is Nothing but $PHI(N)$
+
+  <hr/>
+
+  > [!NOTE]
+  > - Euler's Theorem : $(a ^ phi(m)) % m = 1) if gcd(a, m) = 1$
