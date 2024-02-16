@@ -1,6 +1,7 @@
 1. set ith bit -->  n | (1 << i);
 2. unset ith bit --> n & (~(1 << i));
 3. flip the ith bit --> n ^ (1 << i);
+4. if(k & (k - 1) == 0) that means k is some power of 2.
 
 4. right most set bit -- > n & (~ (n - 1));
 5. left most set bit --> can use binary search...
