@@ -25,5 +25,5 @@
     <br/>
 
   - We know that $nCr$ can be written as $(n!)/((r!) * (n - r)!)$
-  - Ans this further can be written as $(n!) * (r!)^-1 * ((n - r)!)^-1$
+  - Ans this further can be written as $(n!) * (r!)^-1 * ((n - r)!)^-_1$
     
