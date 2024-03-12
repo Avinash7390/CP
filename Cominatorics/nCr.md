@@ -28,8 +28,8 @@
   - to calculate $n!$ we can use $f(n) = n * f(n - 1)$
   <h3>To calculate inverse factorial of a number we need to know some things prior</h3>
   
-  - from Fermat's theorem we know that $a^m-1 = 1 mod m$ where m is a prime number.
-  - so $a*a^m-2 = 1 mod m$, and so $a^-1 = a^m-2 mod m$
+  - from Fermat's theorem we know that $a^(m-1) = 1 mod m$ where m is a prime number.
+  - so $a*a^(m-2) = 1 mod m$, and so $a^(-1) = a^((m-2)) mod m$
   
   
     
