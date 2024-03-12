@@ -10,8 +10,8 @@ arr.end(), val).
 
 <br/>
 
-<h2>Whne you are takeing input a string with spaces on codeforces, You can use getline(cin, str)
-  suppose you are reading m lines then you have to take a loop of m + 1 lines and for the first time you ingone the input.
+<h3>When you are taking input a string with spaces on codeforces, You can use getline(cin, str)
+  suppose you are reading m lines then you have to take a loop of m + 1 lines and for the first time you ignore the input.
   eg.
   <b/>
     
@@ -30,5 +30,5 @@ arr.end(), val).
       getline(cin, s);
       if(i == 0) continue;
   }
-</h2>
+</h3>
 
