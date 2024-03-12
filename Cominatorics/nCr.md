@@ -29,7 +29,7 @@
   <h3>To calculate inverse factorial of a number we need to know some things prior</h3>
   
   - from Fermat's theorem we know that $_a(m-1) = 1 (mod) m$ where m is a prime number.
-  - so $_a _(*)_a(m-2) = 1 (mod) m$, and so $_a(-1) = _a(m-2) (mod) m$
+  - so $_a _{*}_a(m-2) = 1 (mod) m$, and so $_a(-1) = _a(m-2) (mod) m$
   
   
     
