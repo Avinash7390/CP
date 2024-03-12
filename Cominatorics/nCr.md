@@ -26,7 +26,11 @@
   - And this further can be written as $(n!) * (r!)^-1 * ((n - r)!)^-1$
   - Now we have to calculate $n!$ inverse of $r!$ and $(n - r)!$ then multiply them.
   - to calculate $n!$ we can use $f(n) = n * f(n - 1)$
-  <h3>To calculate inverse factorial of a number we need to know some thnigs prior</h3>
+  <h3>To calculate inverse factorial of a number we need to know some things prior</h3>
+  
+  - from Fermat's theorem we know that $a^m-1 = 1 mod m$ where m is a prime number.
+  - so $a*a^m-2 = 1 mod m$, and so $a^-1 = a^m-2 mod m$
+  
   
     
     
