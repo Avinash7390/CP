@@ -22,13 +22,14 @@ arr.end(), val).
   12 c
   <br/>
 
-  here m = 5;
+so here is the code 
 
-  so here is the code 
-  for(int i = 0; i < m + 1; i++){
-      string s;
-      getline(cin, s);
-      if(i == 0) continue;
-  }
+    here m = 5;
+    for(int i = 0; i < m + 1; i++){
+        string s;
+        getline(cin, s);
+        if(i == 0) continue;
+    }
+  
 </h3>
 
