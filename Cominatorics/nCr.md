@@ -30,6 +30,8 @@
   
   - from Fermat's theorem we know that $_a(m-1) = 1 (mod) m$ where m is a prime number.
   - so $_a * _a(m-2) = 1 (mod) m$, and so $_a(-1) = _a(m-2) (mod) m$
+  - so to calculate inverse of a number with respect to a prime modulo we can use $mminvprime()$ function given above
+  - And to calculate the inverse factorial for n numbers we can use $invFact(n - 1) = n * invFact(n)$ derived from $f(n) = n * f(n - 1)$
   
   
     
