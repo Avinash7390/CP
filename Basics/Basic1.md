@@ -14,12 +14,12 @@ arr.end(), val).
   suppose you are reading m lines then you have to take a loop of m + 1 lines and for the first time you ignore the input.
   eg.
   <b/>
-    
-  5 ?
-  4 a
-  6 b
-  123 ?
-  12 c
+      
+    5 ?
+    4 a
+    6 b
+    123 ?
+    12 c
   <br/>
 
 so here is the code 
