@@ -21,9 +21,10 @@
   
   - then you can directly use the function nCr defined above
 
-    <h3>Lets Analise how these hase been implemented</h3>
+    <h3>Lets Analise how these have been implemented</h3>
     <br/>
   - We know that $nCr$ can be written as $(n!)/((r!) * (n - r)!)$
   - And this further can be written as $(n!) * (r!)^-1 * ((n - r)!)^-1$
   - Now we have to calculate $n!$ inverse of $r!$ and $(n - r)!$ then multiply them.
+  - to calculate $n!$ we can use $f(n) = n * f(n - 1)$
     
