@@ -8,13 +8,13 @@ struct Hashing{
     vector<vector<ll>> powersOfBase;
     vector<vector<ll>> inversePowersOfBase;
     Hashing(string a){
-        primes = sz(hashPrimes);
+        primes = size(hashPrimes);
         hashValues.resize(primes);
         powersOfBase.resize(primes);
         inversePowersOfBase.resize(primes);
         s = a;
-        n = s.length(); 
-        for(int i = 0; i < sz(hashPrimes); i++) {
+        n = size(s); 
+        for(int i = 0; i < size(hashPrimes); i++) {
             powersOfBase[i].resize(n + 1);
             inversePowersOfBase[i].resize(n + 1);
             powersOfBase[i][0] = 1;
@@ -26,7 +26,7 @@ struct Hashing{
                 inversePowersOfBase[i][j] = mod_mul(inversePowersOfBase[i][j + 1], base, hashPrimes[i]);
             } 
         }
-        for(int i = 0; i < sz(hashPrimes); i++) {
+        for(int i = 0; i < size(hashPrimes); i++) {
             hashValues[i].resize(n);
             for(int j = 0; j < n; j++){
                 hashValues[i][j] = ((s[j] - 'a' + 1LL) * powersOfBase[i][j]) % hashPrimes[i];
