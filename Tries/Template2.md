@@ -83,7 +83,11 @@
     
         int preCompute(Node *currNode){
     
-            if(currNode -> isLastNode() && currNode -> isEndOfString()) return 1;
+            if(currNode -> isLastNode() && currNode -> isEndOfString()){
+                currNode -> setCount(1);
+                return 1;
+            }
+            
     
             int ct = 0;
     
