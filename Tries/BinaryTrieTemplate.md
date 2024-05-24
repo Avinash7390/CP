@@ -40,7 +40,8 @@
             Node *currNode = root;
     
             for(int i = 31; i >= 0; i--){
-                int bit = num & (1 << i);
+                int bit = 0;
+                if(num & (1 << i)) bit = 1;
     
                 if(!currNode -> hasChild(bit)){
                     currNode -> addChild(bit);
@@ -55,7 +56,8 @@
             Node *currNode = root;
     
             for(int i = 31; i >= 0; i--){
-                int bit = num & (1 << i);
+                int bit = 0;
+                if(num & (1 << i)) bit = 1;
     
                 if(!currNode -> hasChild(bit)){
                     return false;
