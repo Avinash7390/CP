@@ -38,4 +38,5 @@ so here is the code
 > 1. A beautifull blog for calculating the Maximum No of Divisors of Any Number (<= N) can have.
 > - [Ideaone](https://ideone.com/JNRMsQ)
 > - [CodeForces Blog](https://codeforces.com/blog/entry/14463)
+> - [OEIS LINK](https://oeis.org/A066150)
 
