@@ -1,3 +1,5 @@
+#define leading_zeroes(x) __builtin_clzll(x);
+
 void cnt(ll num, vector<ll>&bitcnt){
     if(num == 0)
     return;
