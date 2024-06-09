@@ -5,3 +5,4 @@
 > - ll mod_mul(ll a, ll b, ll m) {a = a % m; b = b % m; return (((a * b) % m) + m) % m;}
 > - ll mod_sub(ll a, ll b, ll m) {a = a % m; b = b % m; return (((a - b) % m) + m) % m;}
 > - if (A % m == B % m) then (A - B) % m == 0 and (B - A) % m == 0
+> - $((x - y) % m = r)$ then $(y % m = (x % m - r + m) % m)$
