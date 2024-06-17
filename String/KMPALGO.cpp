@@ -1,38 +1,52 @@
-
-#include<bits/stdc++.h>
- 
-using namespace std;
-int kmp(string String, string pattern) {
-  int i = 0, j = 0, m = pattern.length(), n = String.length();
-  pattern = ' ' + pattern; //just shifting the pattern indices by 1
-  vector < int > piTable(m + 1, 0);
-  for (int i = 2; i <= m; i++) {
-    while (j <= m && pattern[j + 1] == pattern[i])
-      piTable[i++] = ++j;
-    j = 0;
-  }
-  j = 0;
-  for (int i = 0; i < n; i++) {
-    if (pattern[j + 1] != String[i]) {
-      while (j != 0 && pattern[j + 1] != String[i])
-        j = piTable[j];
+int *pre_kmp(string pattern)
+{
+    int size = pattern.length();
+    int *pie=new int [size];
+    pie[0] = 0;
+    int k=0;
+    for(int i=1;i<size;i++)
+    {
+        while(k>0 && pattern[k] != pattern[i] )
+        {
+            k=pie[k-1];
+        }
+        if( pattern[k] == pattern[i] )
+        {
+            k=k+1;
+        }
+        pie[i]=k;
     }
-    j++;
-    if (j == m) return i - m + 1;
-  }
-  return -1;
-
-}
-int main() {
-  string pattern="aaaaaab", String="aaaaaaaamaaaaaab";
-
-  int index = kmp(String, pattern);
-  if (index == -1) cout << "The pattern is not found";
-  else cout << "The pattern " << pattern << " is found in the given string " 
-  << String << " at " << index;
-  return 0;
+    
+    return pie;
 }
 
+int kmp(string text,string pattern)
+{
+    int* pie=pre_kmp(pattern);
+    int matched_pos=0;
+    for(int current=0; current< text.length(); current++)
+    {
+        while (matched_pos > 0 && pattern[matched_pos] != text[current] )
+            matched_pos = pie[matched_pos-1];
+            
+        if(pattern[matched_pos] == text[current])
+            matched_pos = matched_pos+1;
+            
+        if( matched_pos == (pattern.length()) )
+        {
+            return current - (pattern.length() -1 );
+            matched_pos = pie[matched_pos-1];
+        }
+    }
 
+    return -1;
+}
 
-Time Complexity = O(m + n)
+void Solve(){
+    string str, pattern;
+    cin >> str >> pattern;
+
+    int x = kmp(str, pattern);
+
+    cout << x << lb; 
+}
