@@ -1,3 +1,5 @@
+Time - Complexity : O(logN)
+
 void dfs(int node, int par, vector<vector<int>>&edges, vector<vector<int>>&parent){
 
     parent[0][node] = par;
