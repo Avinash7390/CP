@@ -17,13 +17,13 @@ void build(int node, int l, int r){
 
 void push(int l, int r, int node){
     if(lazy[node] != 0){
+        seg[node] = seg[node] + lazy[node] * (r - l + 1);
         if(l != r){
-
-            seg[node] = seg[node] + lazy[node] * (r - l + 1);
             lazy[2 * node] += lazy[node];
             lazy[2 * node + 1] += lazy[node];
-            lazy[node] = 0;
+            
         }
+        lazy[node] = 0;
     }
 }
 
